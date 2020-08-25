@@ -10,7 +10,7 @@ link.click()
 
 try:
     element = WebDriverWait(driver,10).until(
-    EC.presence_of_element_located((By.LINK_TEXT, "Beginner Python Tutorials"))
+    EC.presence_of_element_located((By.LINK_TEXT, "Python Project"))
     ) # Basically telling driver to wait 10 secs until indicated LINK_TEXT is located 
     element.click()
     
